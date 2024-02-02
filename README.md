@@ -1,1 +1,2 @@
-# blog
+# My First Project
+I built my blog with HTML, CSS, Javascript, Tailwind CSS... 
