@@ -29,10 +29,11 @@ body {
   color: #fff;
   font-weight: 550;
   font-size: 18px;
+  transition: 0.3s;
 }
 
 .designer {
-  padding-left: 8px;
+  padding-left: 7px;
 }
 
 .logo span {
@@ -45,13 +46,13 @@ body {
   font-size: 15px;
   text-decoration: none;
   font-weight: 550;
-  color: #fff;
+  color: #d1d0d0;
   margin-left: 20px;
-  transition: 0.5s;
+  transition: 0.1s;
 }
 
 .navbar a:hover {
-  color: #cac9c9;
+  color: #ffffff;
 }
 
 /* Eren */
@@ -123,6 +124,13 @@ h1 span {
 .headbaba {
   font-size: 22px;
   font-weight: 700;
+}
+
+.headbaba a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
 }
 
 .headline p {
@@ -201,7 +209,8 @@ h1 span {
   width: 1000px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 100px;
+  margin-bottom: 130px;
+  margin-top: 130px;
   max-width: 1024px;
 }
 
@@ -220,71 +229,6 @@ h1 span {
   line-height: 24px;
 }
 
-/* .input_wait {
-  border-radius: 90px;
-  width: 100%;
-  padding: 14px 25px;
-  font-size: 15px;
-  margin-top: 24px;
-} */
-
-/* .inputbutton {
-  /* display: flex;
-  flex-grow: 2; */
-/* position: relative;
-} */
-
-/* input[type="text"] {
-  background-color: #2d2d30;
-  border: 1px solid #393939;
-  color: #fff;
-  transition: 0.4s;
-}
-
-input[type="text"]:focus {
-  outline: none;
-  color: #fff;
-  font-weight: 400;
-  border: 1px solid #4e4e4e; */
-/* } */
-/* 
-.button {
-  padding: 14px 25px;
-  border-radius: 90px;
-  position: absolute;
-  height: 100%;
-  aspect-ratio: 1;
-  right: 0;
-  border: 2px solid #cac9c9;
-  top: 50%;
-} */
-/* */
-
-/* new button */
-
-/* button {
-    border: none;
-    cursor: pointer;
-} */
-
-/* button:hover {
-    opacity: 0.8;
-}
-
-input {
-    color: white;
-    font-size: 1.1rem;
-    font-weight: 500;
-} */
-
-/* input:focus {
-    outline: 2px solid white;
-}
-
-input::placeholder {
-    color: rgba(255, 255, 255, 0.6);
-} */
-
 /* Button on top of the Input */
 .wrapper {
   width: 1024px;
@@ -299,7 +243,7 @@ input::placeholder {
   padding: 1rem 2rem;
   width: 100%;
   font-size: 15px;
-  cursor: pointer;
+  cursor: text;
   transition: 0.2s;
   color: #fff;
 }
@@ -325,3 +269,314 @@ input:focus {
 button:hover {
   background-color: #f3f0f0;
 }
+
+/* footer */
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(80px, auto);
+  margin-right: 220px;
+  margin-left: 220px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.one {
+  background-color: #000;
+}
+
+.one h3 {
+  color: #fff;
+  font-weight: 550;
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+.one p {
+  color: #a1a1aa;
+  font-size: 15px;
+}
+
+.one img {
+  width: 28px;
+  margin-top: 15px;
+}
+
+@keyframes rotation {
+  0% {
+    transofrm: rotate(360deg);
+  }
+}
+
+.one img:hover {
+  transform: rotate(180deg);
+}
+
+.two {
+  background-color: rgb(0, 0, 0);
+}
+
+.three {
+  background-color: rgb(0, 0, 0);
+}
+
+.four,
+.five {
+  background-color: rgb(0, 0, 0);
+  margin-left: 100px;
+}
+
+.four h3,
+.five h3 {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 580;
+  margin-bottom: 14px;
+}
+
+.four a,
+.five a {
+  display: block;
+
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #6a6a6a;
+  margin-bottom: 12px;
+  transition: 0.4s;
+}
+.four a:hover,
+.five a:hover {
+  color: #aba9a9;
+}
+
+.copyright {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  border-top: 1px solid #1c1c1c;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+.copyright h3 {
+  color: #3d3d3e;
+  font-size: 14px;
+  font-weight: 450;
+  text-align: center;
+  margin-top: 55px;
+}
+
+/* about */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(80px, auto);
+  margin-right: 220px;
+  margin-left: 220px;
+  margin-top: 90px;
+  margin-bottom: 80px;
+}
+
+.grid-two {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(80px, auto);
+  margin-right: 220px;
+  margin-left: 220px;
+  margin-top: 90px;
+  margin-bottom: 80px;
+}
+
+div.grid-two {
+  gap: 140px;
+}
+
+.turkoglu {
+  width: 500px;
+  margin: 25px 225px 5px 225px;
+  padding-top: 30px;
+}
+
+.turkoglu h1 {
+  margin-top: 65px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 620;
+}
+
+.eren {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(80px, auto);
+  margin: 10px 220px 80px 220px;
+}
+
+.one_eren h1 {
+  color: #fff;
+  /* width: 200px; */
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.two_eren {
+  margin-left: 25px;
+}
+
+.two_eren h2 {
+  color: #fff;
+  margin-bottom: 19px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.two_eren p {
+  width: 450px;
+  font-weight: 400;
+  font-size: 15px;
+  color: rgb(161, 161, 170);
+  line-height: 22px;
+}
+
+.four_eren,
+.five_eren {
+  float: right;
+  padding-left: 35px;
+}
+
+.four_eren a,
+.five_eren a {
+  display: block;
+  color: #f5efef;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.four_eren a:hover,
+.five_eren a:hover {
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.four_eren h3,
+.five_eren h3 {
+  color: #fff;
+  margin-bottom: 12px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+/* img head */
+.abi {
+  width: 200px;
+  border-radius: 90%;
+}
+
+/* .radius  */
+
+.radius {
+  border-radius: 90px;
+  border: 1px solid #1c1b1b;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding: 2px 8px 2px 8px;
+  background-color: #1c1c1c;
+  color: #b6b4b4;
+}
+.radius:hover {
+  cursor: help;
+}
+
+/* ABOUT EXP */
+.one_eren_xp h2 {
+  color: #fff;
+  /* width: 200px; */
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.two_eren_xp {
+  width: 500px;
+}
+
+.two_eren_xp h2 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.two_eren_xp {
+  color: #fff;
+  font-size: 15px;
+}
+
+.two_eren_xp .words-2 {
+  margin-top: 35px;
+}
+
+.now {
+  color: #45a14a;
+}
+
+.margintop-two {
+  margin-top: 5px;
+  border-bottom: 2px solid #1a1a1a;
+}
+
+.marginp {
+  margin-top: 16px;
+  margin-bottom: 35px;
+  color: rgb(161, 161, 170);
+  font-size: 15px;
+}
+
+/* section quote */
+.quote h3 {
+  color: rgb(113, 113, 122);
+  font-size: 19px;
+  font-weight: 560;
+  line-height: 25px;
+}
+
+.quote {
+  width: 600px;
+  margin: 150px 220px 150px 220px;
+}
+
+/* essays.html */
+.full_div {
+  /* background-color: #45a14a; */
+  margin-top: 130px;
+  margin-left: 220px;
+  margin-right: 220px;
+
+  width: 1010px;
+  height: 700px;
+}
+
+.full_div h1 {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 600;
+  position: block;
+}
+
+.essays_name {
+  margin-top: 50px;
+}
+.essays_name a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 480;
+  font-size: 17px;
+  line-height: 3rem;
+}
+/* archive.html */
+
+/* feed.html */
