@@ -6,49 +6,7 @@
 
 I'm a design engineer. That means, I'm both a creative and a logical thinker trying to combine both skills in one job.
 
-Features
- 📈 Prerendering / SSR
- ⚡ Super performant
- 🏗️ Custom built UI
- 🖼️ Dynamic OG images
- ✴️ JSX
- 🌀 Markdown rendering
- 🔒 Typesafe
- 🌐 i18n
- 📁 Custom folder-based imports
- 🟢 Good Lighthouse score
- ▲ Custom Vercel API endpoint
 
-
-Map of the site
-Note
-
-This could change from time to time.
-
-├── NAVIGATION (on all pages)
-│
-├── / (Home)
-│   ├── Header introduction
-│   ├── Work
-│   ├── Contact chat
-│   └── Community letters
-│
-├── /about (About me)
-│   ├── My life and contact
-│   ├── Education
-│   ├── Photos
-│   ├── Tools / Apps I use
-│   ├── Bucketlist
-│   ├── Songs I like
-│   └── Movies / Shows I watch
-│
-├── /feed (Blog / Feed / Journal)
-│   └── All entries sorted after date
-│
-├── /archive (Old and smaller projects)
-│   └── All projects sorted after date
-│
-└── FOOTER (on all pages)
 Start locally
 1. Copy repo
 Fork / Download this repository so you have the files locally.
