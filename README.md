@@ -1,9 +1,7 @@
 # Eren Turkoglu
 My minimalist site.
 
-## About this project
-
-### General
+<h1>This project.</h1> 
 
 I'm a design engineer. That means, I'm both a creative and a logical thinker trying to combine both skills in one job.
 
