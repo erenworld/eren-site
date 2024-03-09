@@ -1,4 +1,5 @@
 # Eren Turkoglu
+My minimalist site.
 
 ## About this project
 
